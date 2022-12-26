@@ -3,105 +3,232 @@ body {
     margin: 0 auto;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    color: yellow;
+    color: #40514E;
+    font-weight: bolder;
 
 }
 
 h1 {
 
     margin: 0;
-    color: aqua;
+    color: #66BFBF;
     font-family: 'Indie Flower', cursive;
+    font-size: 150px;
+    line-height: 2;
 }
 
 h2 {
 
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 75px;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+
+}
+
+.rainbow {
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: -4px 4px #ef3550,
+        -8px 8px #f48fb1,
+        -12px 12px #7e57c2,
+        -16px 16px #2196f3,
+        -20px 20px #26c6da,
+        -24px 24px #43a047,
+        -28px 28px #eeff41,
+        -32px 32px #f9a825,
+        -36px 36px #ff5722;
+    position: relative;
+    bottom: 15px;
+
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+
+}
+
+.contact-me {
+    width: 40%;
+    margin: 60px auto 60px;
+
+
+
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: .75rem;
+    padding: 20px 0;
 }
 
 h3 {
 
+    color: #11999E;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 75px;
 }
 
 
+hr {
 
+    border: dotted;
+    color: #eaf6f6 10px;
+    border-bottom: 0;
+    width: 2%;
+    margin: 100px auto;
+    
+    
 
-div {
+}
 
-    background-color: #1C315E;
+.hr2 {
+    border: dotted;
+    color: #eaf6f6 10px;
+    border-bottom: 0;
+    width: 2%;
+    margin: 100px auto;
+    align-items: center;
+    clear: right;
 
+}
 
+p {
 
-
+    line-height: 2;
 }
 
 .top-container {
 
     position: relative;
     padding-top: 100px;
+    background-color: #1C315E;
 
 }
 
 .middle-container {
-  
-
-
+    background-color: white;
+    margin: 100px 0;
 }
 
 .bottom-container {
 
-
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
 
 }
 
-.rain {
+a {
 
-    text-decoration: underline;
+    color: #11999E;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+
 }
 
-.topcloud {
-
-    position: absolute;
-    right: 650px;
-    top: 50px;
+a:hover {
+    color: #eaf6f6;
 }
 
-.bottomcloud {
+.skill-row {
 
-    position: absolute;
-    left: 650px;
-    bottom: 300px;
-}
-
-.jdu {
-
-height: 200px;
-width: 200px;
-border-radius: 75%;
+    width: 50%;
+    margin: auto;
+    margin: 100px auto 100px auto;
+    text-align: left;
 
 
 }
 
 .guitar {
 
-    height: 200px;
-    width: 200px;
-    border-radius: 75%;
-
-
-}
-
-.imjustin {
-font-size: 100px;
-height: 100px;
+    width: 25%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
 
 }
 
 .wizard {
 
-    
+    float: right;
+    width: 25%;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
 
+
+.jdu {
+
+    width: 20%;
+    height: 20%;
+    font-size: 75%;
+    border-radius: 50%;
+ 
+}
+
+
+.topcloud {
+
+    position: absolute;
+    right: 350px;
+    top: 50px;
+}
+
+.bottomcloud {
+
+    position: absolute;
+    left: 350px;
+    bottom: 300px;
+}
+
+
+.imjustin {
+    font-size: 200px;
+    height: 200px;
+
+
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+
+}
+
+.chatbottom {
+
+    margin: 30px auto;
 }
